@@ -1,9 +1,7 @@
 body {
 	font-family: 'Rubik', sans-serif;
 	background-color: rgba(41, 102, 176, 0.7);
-	padding: 25px;
-	padding-left: 10px;
-	margin: auto 0;
+	margin: auto 0; 
 	color: rgb(4, 7, 46);
 	font-style: italic;
 	font-size: 1.2em;
@@ -11,6 +9,7 @@ body {
 
 #title {
 	text-decoration: underline;
+	padding-top: 70px;
 }
 
 #townHall {
@@ -22,17 +21,18 @@ body {
 .list {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 	list-style: none;
-	padding: 0;
+	background-color: rgba(0, 0, 105, 0.9);
+	border: 1px solid blue;
+	margin: 0;
 }
 	
 .navBar {
 	padding: 20px 40px;
 	margin: auto 0;
-	background-color: rgba(0, 0, 255, 0.2);
-	border: 1px solid blue;
-	line-height: 40px;
+	line-height: 40px; 
 }
 
 @media only screen and (max-width: 600px) {
@@ -40,6 +40,19 @@ body {
         font-size: 0.8em;
         padding: 0;
     }
+}
+
+.sticky {
+	position: fixed;
+    top: 0;
+    width: 100%;
+    backface-visibility: 
+}
+
+
+
+.mainText {
+	padding-left: 25px;
 }
 
 #why, #explanation {
