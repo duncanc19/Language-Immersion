@@ -43,7 +43,7 @@ body {
 	color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .navBar {
         font-size: 0.8em;
         padding: 0;
@@ -54,13 +54,13 @@ body {
 	position: fixed;
     top: 0;
     width: 100%;
-    backface-visibility: 
 }
 
 
 
 .mainText {
 	padding-left: 25px;
+	clear: both;
 }
 
 #why, #explanation {
