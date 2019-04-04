@@ -36,12 +36,8 @@ body {
 	line-height: 40px; 
 }
 
-.linkCol:visited {
-	color: white;
-}
-.linkCol:link {
-	color: white;
-}
+.linkCol:visited { color: white; }
+.linkCol:link { color: white; }
 
 @media only screen and (max-width: 900px) {
     .navBar {
@@ -59,7 +55,7 @@ body {
 
 
 .mainText {
-	padding-left: 25px;
+	padding: 0px 25px;
 	clear: both;
 }
 
